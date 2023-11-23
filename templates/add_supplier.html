@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaugă Furnizor</title>
+</head>
+<body>
+    <h1>Adaugă un Furnizor Nou</h1>
+    <form method="POST" action="{{ url_for('add_supplier') }}">
+        Nume Furnizor: <input type="text" name="nume" required><br>
+        Contact: <input type="text" name="contact" required><br>
+        Adresă: <input type="text" name="adresa" required><br>
+        <input type="submit" value="Adaugă Furnizor">
+    </form>
+    <a href="{{ url_for('index') }}">Înapoi la lista de furnizori</a>
+</body>
+</html>

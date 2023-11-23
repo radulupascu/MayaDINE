@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furnizori</title>
+</head>
+<body>
+    <h1>Lista Furnizorilor</h1>
+    <ul>
+        {% for furnizor in furnizori %}
+            <li>{{ furnizor.NumeFurnizor }} - {{ furnizor.Contact }} - {{ furnizor.Adresa }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('add_supplier') }}">Adaugă un furnizor nou</a>
+</body>
+</html>
