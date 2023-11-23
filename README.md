@@ -17,10 +17,4 @@
 **Getting Started:**
 To get started with "MayafreshFlaskDineDB", clone this repository and follow the instructions in the README for setting up the environment and initializing the database.
 
-**Contributing:**
-Contributions to "MayafreshFlaskDineDB" are welcome! Please read through our contribution guidelines for more information on making pull requests.
-
-**License:**
-This project is licensed under the [License Name], allowing for wide use and modification.
-
 Enjoy exploring and enhancing the dining experience with "MayafreshFlaskDineDB"!
